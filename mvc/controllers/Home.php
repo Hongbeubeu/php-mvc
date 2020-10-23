@@ -6,9 +6,14 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
-        $teo = $this->model("SinhVienModel");
-        echo $teo->GetSV();
+        echo "SayHi2!";
+        //$teo = $this->model("SinhVienModel");
+        //echo $teo->GetSV();
 
+    }
+
+    function SayGoodbye(){
+        echo "Goodbye!";
     }
 
     function Show($a, $b){        
